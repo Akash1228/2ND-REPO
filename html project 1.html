@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FIRST DESIGN</title>
+<script src = "angular.min.js"></script>
+<link rel="stylesheet" href="css project 1.css">
+</head>
+<body id="mainboddy" ng-app="myapp" ng-controller="myctrl"> 
+  
+            <div class="main">
+            <p>movieville.com</p>        
+                        <div class="list">              
+                        <ul><a href="#about">ABOUT</a></ul>
+                        <ul><a href="#">BLOG</a></ul>
+                        <ul><a href="#">CONTACT</a></a>
+                        <ul><a href="#">LINKEDIN</a></ul>                 
+                        </div>
+                        </div>
+                        <marquee behaviour="scroll" bgcolor="white" DIRECTION="RIGHT" HEIGHT="25PX" style="border: black 1PX;">WE  ARE  PROVIDING  40%  NEW  YEAR  SALE  TO  OUR CUSTOMERS</marquee>
+                        <p style="color: white; text-align: center; padding-top: 10px;font-size: 30px;text-decoration: underline;">FEATURED</p>
+                      
+                                  <div class="container">
+                                        <div class="image">
+                                                <img src="wallpaperflare.com_wallpaper (2).jpg">
+                                                <p style="background-color: black; color: white;">John Wick</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare.com_wallpaper (3).jpg">
+                                                <p style="background-color: black; color: white;">KingsMen </p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="pika.jpg">
+                                                <p style="background-color: black; color: white;">Pikachu</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare.com_wallpaper (5).jpg">
+                                                <p style="background-color: black; color: white;">Black Widow</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare.com_wallpaper (6).jpg">
+                                                <p style="background-color: black; color: white;">Captain America</p>
+                                        </div>
+
+                                
+                                  </div>
+                                  <div class="container">
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (4).jfif">
+                                                <p style="background-color: black; color: white;">Godzilla</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped.jfif">
+                                                <p style="background-color: black; color: white;">Black Widow</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (1).jfif">
+                                                <p style="background-color: black; color: white;">Sucide Squad</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (3).jfif" >
+                                                <p style="background-color: black; color: white;">Batman </p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (2).jfif">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+
+                                
+                                  </div>
+                                  <div class="container">
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (6).jfif">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (5).jfif" height="400PX">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (7).jfif">
+                                                <p style="background-color: black; color: white;"></p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (8).jfif">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (9).jfif">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+                                </div>
+
+
+                                  <div class="container">
+                                        <div class="image">
+                                                <img src="wallpaperflare.com_wallpaper (8).jpg">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare.com_wallpaper.jpg">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="backgrnd.jpg">
+                                                <p style="background-color: black; color: white;"></p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (8).jfif">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+                                        <div class="image">
+                                                <img src="wallpaperflare-cropped (9).jfif">
+                                                <p style="background-color: black; color: white;">adad</p>
+                                        </div>
+">
+                                    
+
+                                
+                                  </div>
+
+                            <div class="drawer" >              
+                            <ul>        
+                            <li><a href="html project 1.2.html">LOGIN</a></li>
+                            <li><a href="#">REGISTER</a></li>
+                            <li><a href="#">SUBSCRIPTION</a></li>
+                            <li><a href="#">AVAILABLE FOR  YOU</a></li>
+                            </ul>                                                
+                            </div>
+                            <div ng-view></div>
+                                                                <script>
+                                                                var app = angular.module("myShoppingList", [    ]); 
+                                                                app.controller("myCtrl", function($scope) {
+                                                                $scope.products = ["Milk", "Bread", "Cheese"];
+                                                                $scope.addItem = function () {
+                                                                        $scope.products.push($scope.addMe);
+                                                                }    
+                                                                });
+                                                                </script>
+                                
+                             
+                                                
+                                        
+</body>
+</html>
